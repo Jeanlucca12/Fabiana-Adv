@@ -3,15 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "npx tailwindcss -i ./styles/style.css -o ./public/output.css --watch",
-    "build": "npx tailwindcss -i ./styles/style.css -o ./public/output.css --minify",
-    "start": "npm run build"
+    "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^3.4.13"
   }
 }
