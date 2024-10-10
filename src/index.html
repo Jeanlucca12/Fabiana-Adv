@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/styles/output.css" />
+    <link class="h-4 w-4" rel="icon" href="/assets/logo-sm.svg" type="image/x-icon">
+
+    <!-- import font Merriweather -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <title>Fabiana Costa Advogada</title>
+</head>
+<body class="bg-gray-900">
+    
+  <!-- Header and Hero -->
+<section>
+  <header class="relative w-screen h-screen bg-home bg-cover bg-center backdrop-opacity-100">
+    <div class="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 backdrop-blur-lg">
+      <div class="flex h-full items-center justify-between">
+
+        <!-- Logo -->
+        <div class="flex-1 mt-6 md:flex md:items-center md:gap-12">
+          <a class="block text-teal-600" href="#">
+            <span class="sr-only">Home</span>
+            <img src="/assets/logo-adv.svg" alt="Logo Fabiana Costa">
+          </a>
+        </div>
+
+        <!-- Desktop Navigation -->
+        <div class="mt-6 md:flex md:items-center md:gap-12">
+          <nav aria-label="Global" class="hidden md:block">
+            <ul class="flex items-center gap-6 text-sm">
+              <li><a class="text-white transition hover:text-gray-500/75" href="#">Home</a></li>
+              <li><a class="text-white transition hover:text-gray-500/75" href="#">Áreas de atuação</a></li>
+              <li><a class="text-white transition hover:text-gray-500/75" href="#">Sobre mim</a></li>
+              <li><a class="text-white transition hover:text-gray-500/75" href="#">Depoimentos</a></li>
+            </ul>
+          </nav>
+
+          <!-- Contact Button & Mobile Menu Button -->
+          <div class="flex items-center gap-4">
+            <div class="sm:flex sm:gap-4">
+              <a class="rounded-md bg-yellow-600 px-5 py-2.5 text-sm font-medium text-white shadow hover:bg-yellow-500 transition"
+                 href="#">
+                Entre em contato
+              </a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <div class="block md:hidden">
+              <button id="menu-btn" class="rounded bg-gray-100 p-2 text-gray-600 transition hover:text-gray-600/75">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile Navigation -->
+      <nav id="mobile-menu" class="hidden md:hidden mt-6">
+        <ul class="flex flex-col items-center gap-6 text-sm">
+          <li><a class="text-white transition hover:text-gray-500/75" href="#">Home</a></li>
+          <li><a class="text-white transition hover:text-gray-500/75" href="#">Sobre mim</a></li>
+          <li><a class="text-white transition hover:text-gray-500/75" href="#">Áreas de atuação</a></li>
+          <li><a class="text-white transition hover:text-gray-500/75" href="#">Depoimentos</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <section class="text-white mt-16 md:mt-20 lg:mt-32">
+      <div>
+        <div class="container flex flex-col items-center px-4 py-10 pb-16 mx-auto text-center lg:pb-32 md:py-20 md:px-10 lg:px-32 text-gray-900">
+          <h1 class="text-3xl font-bold leading-tight sm:text-4xl lg:text-5xl xl:max-w-3xl text-white drop-shadow-md">
+            Uma profissional dedicada para cuidar do seu caso
+          </h1>
+          <p class="mt-4 mb-6 text-base sm:text-lg sm:mb-8 xl:max-w-3xl text-white drop-shadow-md">
+            Conte com experiência e dedicação para resolver suas questões jurídicas com eficiência e confiança. Atuamos em diversas áreas do direito, oferecendo um atendimento personalizado e focado em resultados.
+          </p>
+          <div class="flex flex-wrap justify-center">
+            <a href="#" class="px-6 py-3 m-2 text-base sm:text-lg font-semibold rounded bg-yellow-600 text-gray-50 hover:bg-yellow-500 transition w-full sm:w-auto text-center">
+              Entre em contato
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+  </header>
+</section>
+
+  
+  <!-- Service section-->
+
+  <section>
+    <div class="container px-4 py-10 mx-auto">
+      <div class="flex items-center justify-between">
+        <h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">Minhas áreas de atuação</h1>
+      </div>
+  
+      <hr class="my-6 border-gray-200 dark:border-yellow-600 w-full md:w-96">
+  
+      <div class="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3 mt-8">
+  
+        <!-- Card 1 -->
+        <div>
+          <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="/assets/civil.png" alt="Direito Civil">
+          <div class="mt-4">
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Direito Civil</h1>
+            <p class=" font-sans mt-2 text-gray-500 dark:text-gray-400">
+              Protegemos seus direitos em contratos, indenizações, e disputas civis, oferecendo soluções eficazes e personalizadas para cada caso.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Card 2 -->
+        <div>
+          <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="/assets/familia.png" alt="Direito da família">
+          <div class="mt-4">
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Direito da Família</h1>
+            <p class="font-sans mt-2 text-gray-500 dark:text-gray-400">
+              Assistência jurídica especializada em divórcios, guarda, pensão alimentícia e sucessões, sempre com sensibilidade e discrição.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Card 3 -->
+        <div>
+          <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="/assets/trabalhista.png" alt="Direito trabalhista">
+          <div class="mt-4">
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Direito Trabalhista</h1>
+            <p class="font-sans mt-2 text-gray-500 dark:text-gray-400">
+              Defesa eficaz em questões trabalhistas, assegurando seus direitos e interesses em todas as relações de emprego.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Card 4 -->
+        <div>
+          <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="/assets/previdenciario.png" alt="Direito previdenciario">
+          <div class="mt-4">
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Direito Previdenciário</h1>
+            <p class="font-sans mt-2 text-gray-500 dark:text-gray-400">
+              Orientação especializada para aposentadorias, benefícios e revisões previdenciárias, garantindo seus direitos sociais.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Card 5 -->
+        <div>
+          <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="/assets/imobiliário.png" alt="Direito imobiliário">
+          <div class="mt-4">
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Direito Imobiliário</h1>
+            <p class="font-sans mt-2 text-gray-500 dark:text-gray-400">
+              Consultoria e suporte completos em transações imobiliárias, regularizações, e litígios, assegurando segurança jurídica.
+            </p>
+          </div>
+        </div>
+  
+        <!-- Card 6 -->
+        <div>
+          <img class="object-cover object-center w-full h-64 rounded-lg lg:h-80" src="/assets/sucessorio.png" alt="Direito sucessório">
+          <div class="mt-4">
+            <h1 class="text-xl font-semibold text-gray-800 dark:text-white">Direito Sucessório</h1>
+            <p class="font-sans mt-2 text-gray-500 dark:text-gray-400">
+              Planejamento e resolução de heranças e testamentos, garantindo uma transição tranquila e segura para sua família.
+            </p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  
+    <div class="flex items-center gap-4 justify-center">
+      <div class="sm:flex sm:gap-4">
+        <a class="rounded-md bg-yellow-600 px-5 py-2.5 text-sm font-medium text-white shadow hover:bg-yellow-500 transition"
+           href="#">
+          Entre em contato
+        </a>
+      </div>
+  </section>
+  
+      
+  <!-- About section-->
+
+  <section>
+    <div class="container px-6 py-10 mx-auto">
+      <div class="flex items-center justify-between">
+        <h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">Sobre mim</h1>
+    </div>
+
+    <hr class="my-12 border-gray-200 dark:border-yellow-600 w-64 mt-4">
+
+        <main class="relative z-20 w-full mt-8 md:flex md:items-center xl:mt-20">
+            <div class="absolute w-full bg-gray-100 -z-10 md:h-96 rounded-2xl"></div>
+            
+            <div class="w-full p-6 bg-gray-200 md:flex md:items-center rounded-2xl md:bg-transparent md:p-0 lg:px-12 md:justify-evenly">
+                <img class="h-24 w-24 md:mx-6 rounded-full object-cover shadow-md md:h-[32rem] md:w-80 lg:h-[36rem] lg:w-[26rem] md:rounded-2xl" src="/assets/profile.jpg" alt="Fabiana Costa" />
+                
+                <div class="mt-2 md:mx-6">
+                    <div>
+                        <p class="text-xl font-semibold tracking-tight text-gray-900">Fabiana Costa</p>
+                        <p class="text-gray-600 ">Advogada</p>
+                    </div>
+
+                    <p class="mt-4 text-lg leading-relaxed text-gray-900 md:text-sm"> “Acredito que a advocacia é uma ferramenta para promover a justiça e a igualdade. Por isso, dedico meu trabalho a oferecer um serviço de qualidade, com ética e profissionalismo. Minha missão é auxiliar meus clientes a entenderem seus direitos e a encontrarem soluções justas e eficazes.”.</p>
+                    <p class="mt-4 text-lg leading-relaxed text-gray-900 md:text-sm">Sou Fabiana, advogada apaixonada por Direito Civil. Formei-me em Sociologia e Licenciatura pela <span class="font-semibold">FMU</span> e possuo Bacharelado em Direito com foco em Direito Civil, trabalhista e familia. Acredito que a advocacia é mais do que uma profissão, é uma missão. Fora do escritório, gosto de passear com a minha família e amigos para colecionar momentos. Atividades que me permitem recarregar as energias e manter a mente sempre ativa. Conte comigo para encontrar soluções personalizadas para as suas questões jurídicas.</p>
+                    
+                    
+                </div>
+            </div>
+        </main>
+    </div>
+</section>
+
+<!-- Stats section-->
+
+<section class="mt-14">
+  <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
+    <div class="mx-auto max-w-3xl text-center">
+      <h2 class="text-3xl font-bold text-white sm:text-4xl">Alguns dos meus resultados em números</h2>
+      <hr class="my-12 border-gray-200 dark:border-yellow-600 w-full mt-4">
+    </div>
+  
+    <div
+      class="mg-6 grid grid-cols-1 gap-4 divide-y divide-gray-100 sm:mt-8 sm:grid-cols-2 sm:divide-x sm:divide-y-0 lg:grid-cols-4"
+    >
+    <!-- Stats 1-->
+      <div class="mt-6 flex flex-col px-4 py-8 text-center">
+        <dt class=" mt-2 order-last text-lg font-medium text-gray-500">De casos com resultados positivos</dt>
+  
+        <dd class="text-4xl font-extrabold text-gray-200 md:text-5xl">80%</dd>
+      </div>
+  
+      <!-- Stats 2-->
+      <div class="mt-6 flex flex-col px-4 py-8 text-center">
+        <dt class="mt-2 order-last text-lg font-medium text-gray-500">clientes satisfeitos</dt>
+  
+        <dd class="text-4xl font-extrabold text-gray-200 md:text-5xl">+30</dd>
+      </div>
+  
+      <!-- Stats 3-->
+      <div class=" mt-6 flex flex-col px-4 py-8 text-center">
+        <dt class="mt-2 order-last text-lg font-medium text-gray-500">Anos de experiência</dt>
+  
+        <dd class="text-4xl font-extrabold text-gray-200 md:text-5xl">+6</dd>
+      </div>
+      
+      <!-- Stats 4-->
+      <div class=" mt-6 flex flex-col px-4 py-8 text-center">
+        <dt class="mt-2 order-last text-lg font-medium text-gray-500">Sentenças favoráveis</dt>
+  
+        <dd class="text-4xl font-extrabold text-gray-200 md:text-5xl">+42</dd>
+      </div>
+    </div>
+  </div>
+  
+</section>
+
+<!-- Testimonials section-->
+
+<section class="mt-14">
+  <div class="container px-6 py-10 mx-auto">
+      <div class="mt-6 md:flex md:items-center md:justify-between">
+          <div>
+              <h1 class="text-2xl font-semibold text-gray-800 lg:text-3xl dark:text-white">
+                  Veja o que os clientes dizem
+              </h1>
+
+              <hr class="my-12 border-gray-200 dark:border-yellow-600 w-full mt-4">
+          </div>
+      </div>
+
+      <!-- Testimonials 1-->
+      <section class="grid grid-cols-1 gap-8 mt-8 xl:mt-4 lg:grid-cols-2 xl:grid-cols-3">
+          <div class="p-8 border rounded-lg dark:border-gray-700">
+              <p class="font-sans leading-loose text-gray-500 dark:text-gray-400">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+              </p>
+
+              <div class="flex items-center mt-8 -mx-2">
+                  <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=880&q=80" alt="">
+
+                  <div class="mx-2">
+                      <h1 class="font-semibold text-gray-800 dark:text-white">Robert</h1>
+                      <span class="text-sm text-gray-500 dark:text-gray-400">CTO, Robert Consultency</span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Testimonials 2-->
+          <div class="p-8 bg-gray-200 border border-transparent rounded-lg dark:bg-gray-200">
+              <p class="font-sans leading-loose text-gray-900">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+              </p>
+
+              <div class="flex items-center mt-8 -mx-2">
+                  <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-500" src="https://images.unsplash.com/photo-1531590878845-12627191e687?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80" alt="">
+
+                  <div class="mx-2">
+                      <h1 class="font-semibold text-gray-900">Jeny Doe</h1>
+                      <span class="text-sm text-gray-500">CEO, Jeny Consultency</span>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Testimonials 3-->
+          <div class="p-8 border rounded-lg dark:border-gray-700">
+              <p class="font-sans leading-loose text-gray-500 dark:text-gray-400">
+                  “Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore quibusdam ducimus libero ad
+                  tempora doloribus expedita laborum saepe voluptas perferendis delectus assumenda rerum, culpa
+                  aperiam dolorum, obcaecati corrupti aspernatur a.”.
+              </p>
+
+              <div class="flex items-center mt-8 -mx-2">
+                  <img class="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700" src="https://images.unsplash.com/photo-1488508872907-592763824245?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="">
+
+                  <div class="mx-2">
+                      <h1 class="font-semibold text-gray-800 dark:text-white">Ema Watson </h1>
+                      <span class="text-sm text-gray-500 dark:text-gray-400">Marketing Manager at Stech</span>
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
+</section>
+
+<!-- CTA final section-->
+
+<section>
+  <section class="mt-4 bg-gray-200">
+    <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
+        <h2 class="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-900 xl:text-3xl">
+          Agende sua consulta e tire suas dúvidas <span class="text-yellow-600">gratuitamente!</span>
+        </h2>
+
+        <p class="max-w-4xl mt-6 text-center text-gray-500 ">
+          Consultoria jurídica personalizada, Soluções eficazes e rápidas e Atendimento humanizado e transparente
+        </p>
+
+        <div class="flex items-center gap-4 justify-center mt-6">
+          <div class="sm:flex sm:gap-4">
+            <a class="rounded-md bg-yellow-600 px-5 py-2.5 text-sm font-medium text-white shadow hover:bg-yellow-500 transition"
+               href="#">
+              Entre em contato
+            </a>
+          </div>
+    </div>
+  </section>
+</section>
+
+<!-- Footer -->
+
+<footer class="bg-gray-900 mt-4">
+  <div class="container px-6 py-8 mx-auto">
+      <div class="flex flex-col items-center text-center">
+          <a href="#">
+              <img class="w-auto h-16" src="/assets/logo-adv.svg" alt="">
+          </a>
+
+          <div class="flex flex-wrap justify-center mt-12 -mx-4">
+              <a href="#" class="mx-4 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400 " aria-label="Reddit"> Home </a>
+              
+              <a href="#" class="mx-4 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400 " aria-label="Reddit"> Áreas de atuação </a>
+              
+              <a href="#" class="mx-4 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400 " aria-label="Reddit"> Sobre mim </a>
+
+              <a href="#" class="mx-4 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400 " aria-label="Reddit"> Depoimentos </a>
+
+              <a href="#" class="mx-4 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400 " aria-label="Reddit"> Contato </a>
+          </div>
+
+      </div>
+
+      <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
+
+      <div class="flex flex-col items-center sm:flex-row sm:justify-between w-full">
+        <p class="text-sm text-gray-500 dark:text-gray-300 text-center w-full">
+          © Copyright 2024. Todos os direitos reservados.
+        </p>
+        
+        <div class="flex items-center justify-center w-full">
+          <span class="text-md text-gray-200">
+            Feito por: <a href="https://jeanbueno.com.br/" target="_blank" class="underline text-gray-200 hover:text-gray-300">@Jeanlucca12</a>
+          </span>
+        </div>
+      </div>
+      
+      
+      </div>
+  </div>
+</footer>
+
+  <script src="navbar.js"></script>
+</body>
+</html>
