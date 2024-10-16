@@ -15,9 +15,9 @@
 <body class="bg-gray-900">
     
   <!-- Header and Hero -->
-<section>
-  <header class="relative w-screen h-screen bg-home bg-cover bg-center backdrop-opacity-100">
-    <div class="mx-auto w-full px-4 py-4 sm:px-6 lg:px-8 backdrop-blur-lg">
+<section id="home">
+  <header class="relative w-screen h-screen bg-home bg-cover bg-center">
+    <div class="mx-auto w-full px-4 py-4 sm:px-6 lg:px-8">
       <div class="flex h-full items-center justify-between">
 
       <!-- Logo -->
@@ -41,10 +41,10 @@
         <div class="mt-6 md:flex md:items-center md:gap-12">
           <nav aria-label="Global" class="hidden md:block">
             <ul class="flex items-center gap-6 text-sm">
-              <li><a class="text-white transition hover:text-gray-500/75" href="#">Home</a></li>
-              <li><a class="text-white transition hover:text-gray-500/75" href="#">Áreas de atuação</a></li>
-              <li><a class="text-white transition hover:text-gray-500/75" href="#">Sobre mim</a></li>
-              <li><a class="text-white transition hover:text-gray-500/75" href="#">Depoimentos</a></li>
+              <li><a class="text-white transition hover:text-gray-500/75" href="#home">Home</a></li>
+              <li><a class="text-white transition hover:text-gray-500/75" href="#service">Áreas de atuação</a></li>
+              <li><a class="text-white transition hover:text-gray-500/75" href="#about">Sobre mim</a></li>
+              <li><a class="text-white transition hover:text-gray-500/75" href="#testimonials">Depoimentos</a></li>
             </ul>
           </nav>
 
@@ -52,7 +52,7 @@
           <div class="flex items-center gap-4">
             <div class="sm:flex sm:gap-4">
               <a class="rounded-md bg-yellow-600 px-2 py-2 text-sm font-medium text-white shadow hover:bg-yellow-500 transition"
-                 href="#">
+                 href="https://wa.me/5511985841686?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20uma%20d%C3%BAvida%20jur%C3%ADdica!" target="_blank">
                 Entre em contato
               </a>
             </div>
@@ -72,10 +72,10 @@
       <!-- Mobile Navigation -->
       <nav id="mobile-menu" class="hidden md:hidden mt-6">
         <ul class="flex flex-col items-center gap-6 text-sm">
-          <li><a class="text-white transition hover:text-gray-500/75" href="#">Home</a></li>
-          <li><a class="text-white transition hover:text-gray-500/75" href="#">Sobre mim</a></li>
-          <li><a class="text-white transition hover:text-gray-500/75" href="#">Áreas de atuação</a></li>
-          <li><a class="text-white transition hover:text-gray-500/75" href="#">Depoimentos</a></li>
+          <li><a class="text-white transition hover:text-gray-500/75" href="#home">Home</a></li>
+          <li><a class="text-white transition hover:text-gray-500/75" href="#service">Áreas de atuação</a></li>
+          <li><a class="text-white transition hover:text-gray-500/75" href="#about">Sobre mim</a></li>
+          <li><a class="text-white transition hover:text-gray-500/75" href="#testimonials">Depoimentos</a></li>
         </ul>
       </nav>
     </div>
@@ -90,7 +90,7 @@
             Conte com experiência e dedicação para resolver suas questões jurídicas com eficiência e confiança. Atuamos em diversas áreas do direito, oferecendo um atendimento personalizado e focado em resultados.
           </p>
           <div class="flex flex-wrap justify-center">
-            <a href="#" class="px-6 py-3 m-2 text-base sm:text-lg font-semibold rounded bg-yellow-600 text-gray-50 hover:bg-yellow-500 transition w-full sm:w-auto text-center">
+            <a href="https://wa.me/5511985841686?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20uma%20d%C3%BAvida%20jur%C3%ADdica!" target="_blank" class="px-6 py-3 m-2 text-base sm:text-lg font-semibold rounded bg-yellow-600 text-gray-50 hover:bg-yellow-500 transition w-full sm:w-auto text-center">
               Entre em contato
             </a>
           </div>
@@ -103,7 +103,7 @@
 
   
   <!-- Service section-->
-  <section>
+  <section id="service" class="">
     <div class="container px-4 py-10 mx-auto">
       <div class="flex items-center justify-between">
         <h1 class="text-2xl font-semibold text-white lg:text-3xl">Minhas áreas de atuação</h1>
@@ -193,7 +193,7 @@
   
       
   <!-- About section-->
-  <section>
+  <section id="about">
     <div class="container px-6 py-10 mx-auto">
       <div class="flex items-center justify-between">
         <h1 class="text-2xl font-semibold text-white lg:text-3xl ">Sobre mim</h1>
@@ -225,7 +225,7 @@
 
 <!-- Stats section-->
 
-<section class="mt-14">
+<section id="stats" class="mt-14">
   <div class="mx-auto max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8">
     <div class="mx-auto max-w-3xl text-center">
       <h2 class="text-3xl font-bold text-white sm:text-4xl">Alguns dos meus resultados em números</h2>
@@ -269,7 +269,7 @@
 
 <!-- Testimonials section-->
 
-<section class="mt-14">
+<section id="testimonials" class="mt-14">
   <div class="container px-6 py-10 mx-auto">
       <div class="mt-6 md:flex md:items-center md:justify-between">
           <div>
@@ -341,7 +341,7 @@
 
 <!-- CTA final section-->
 
-<section>
+<section id="cta">
   <section class="mt-4 bg-gray-200">
     <div class="container flex flex-col items-center px-4 py-12 mx-auto text-center">
         <h2 class="max-w-2xl mx-auto text-2xl font-semibold tracking-tight text-gray-900 xl:text-3xl">
@@ -355,7 +355,7 @@
         <div class="flex items-center gap-4 justify-center mt-6">
           <div class="sm:flex sm:gap-4">
             <a class="rounded-md bg-yellow-600 px-5 py-2.5 text-sm font-medium text-white shadow hover:bg-yellow-500 transition"
-               href="#">
+               href="https://wa.me/5511985841686?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20uma%20d%C3%BAvida%20jur%C3%ADdica!" target="_blank">
               Entre em contato
             </a>
           </div>
@@ -365,7 +365,7 @@
 
 <!-- Footer -->
 
-<footer class="bg-gray-900 mt-4">
+<footer id="footer" class="bg-gray-900 mt-4">
   <div class="container px-6 py-8 mx-auto">
       <div class="flex flex-col items-center text-center">
           <a href="#">
@@ -373,14 +373,30 @@
           </a>
 
            <!-- Links de Navegação -->
-           <div class="flex flex-wrap justify-center mt-8 sm:mt-12 -mx-4 space-x-4 sm:space-x-8">
-            <a href="#" class="mx-2 sm:mx-2 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400" aria-label="Home">Home</a>
-            <a href="#" class="mx-2 sm:mx-2 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400" aria-label="Áreas de atuação">Áreas de atuação</a>
-            <a href="#" class="mx-2 sm:mx-2 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400" aria-label="Sobre mim">Sobre mim</a>
-            <a href="#" class="mx-2 sm:mx-2 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400" aria-label="Depoimentos">Depoimentos</a>
-            <a href="#" class="mx-2 mt-4 sm:mt-0 sm:mx-2 text-sm text-gray-200 transition-colors duration-300 hover:text-gray-400" aria-label="Contato">Contato</a>
-        </div>
-    </div>
+           
+           <ul class="mt-12 flex flex-wrap justify-center gap-6 md:gap-8 lg:gap-12">
+            <li>
+              <a class="text-gray-200 transition hover:text-gray-500" href="#home"> Home </a>
+            </li>
+      
+            <li>
+              <a class="text-gray-200 transition hover:text-gray-500" href="#service"> Áreas de atuação </a>
+            </li>
+      
+            <li>
+              <a class="text-gray-200 transition hover:text-gray-500" href="#about"> Sobre mim </a>
+            </li>
+      
+            <li>
+              <a class="text-gray-200 transition hover:text-gray-500" href="#testimonials"> Depoimentos </a>
+            </li>
+      
+            <li>
+              <a class="text-gray-200 transition hover:text-gray-500" href="https://wa.me/5511985841686?text=Ol%C3%A1%2C%20vim%20pelo%20seu%20site%20e%20gostaria%20de%20conversar%20sobre%20uma%20d%C3%BAvida%20jur%C3%ADdica!" target="_blank"> Contato </a>
+            </li>
+      
+          </ul>
+
 
       <hr class="my-6 border-gray-200 md:my-10 dark:border-gray-700" />
 
